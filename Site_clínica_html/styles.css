@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}   
+
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+
+.argumento {
+    color: rgb(178, 87, 201);
+}
+
+.argumentoC {
+    color: rgb(156, 23, 101);
+}
+
+.voltar {
+    color: red;
+    font-size: larger;
+}
+
+.headtable {
+    border: crimson;
+    color: white;
+    background-color: black;
+}
+
+.contato {
+    color: red;
+    font-style: oblique;
+}
